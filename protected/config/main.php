@@ -47,18 +47,7 @@ return array(
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),*/
-		'gii' => array(
-            'generatorPaths' => array(
-                //'bootstrap.gii'
-                'application.modules.bootstrap.gii'
-            ),
-            'class' => 'system.gii.GiiModule',
-            'password' => '123',
-            'ipFilters' => array(
-                '127.0.0.1',
-                '::1'
-            )
-        )
+
 		/**/
 	),
 	'aliases' => array(
@@ -122,7 +111,7 @@ return array(
 			'tablePrefix'=>'',
 	        'connectionString' => 'pgsql:host=localhost;port=5432;dbname=passaficha',
 	        'username'=>'postgres',
-	        'password'=>'web10099',
+	        'password'=>'',
 	        'charset'=>'UTF8',
 
 		),
