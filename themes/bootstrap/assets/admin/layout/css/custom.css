@@ -1,0 +1,23 @@
+.no-border > tr > td { border: none !important; }
+.feeds li .col2 { width: 140px !important; margin-left: -140px !important; }
+.list-unstyled.amounts strong { width: 90px !important; font-size: 14px; }
+.list-unstyled.amounts span { display: inline-block; width: 100px !important; font-size: 14px; }
+.static-info { margin-bottom: 5px; }
+.static-info .name { font-size: 13px; }
+.static-info .value { font-size: 13px; }
+.popover { z-index: 10000000; }
+.panel-default > .panel-heading { background-color: #e9ecf3; }
+.form .form-row-seperated .form-group { margin: 0 -15px; padding: 10px 0; }
+.form-horizontal .control-label { padding-right: 0; }
+.accordion .panel .panel-title .accordion-toggle, label { padding: 10px 15px; margin-bottom: 0; }
+.docs-upload { max-height: 121px; max-width: 121px; }
+.timeline-body-time { font-size: 12px; }
+.txt12 { font-size: 12px; }
+.padding-portlet-light { padding: 100px !important; }
+.btn-envia-ficha-email { padding: 20px 25px !important; }
+.btn-envia-ficha-email i { margin: 5px 0 0 20px !important; }
+@media (max-width: 767px) {
+	.fix-page-container-email { margin: 10px 10px 0 !important; }
+  .fix-page-actions { margin-right: 10px !important; }
+  .fix-page-logo { float: none !important; text-align: center !important; }
+}
